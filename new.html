@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Goal ☀️</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+    <script src="./add_task.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1><a href="/">My Goals ☀️</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./new.html">New Goal</a></li>
+          <li><a href="./history.html">History</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form id="taskForm">
+      <p id="errorEl"></p>
+      <label for="addTask">Add Task</label>
+      <input
+        type="text"
+        id="addTask"
+        name="addTask"
+        placeholder="Add a new Task"
+        required
+      />
+      <input type="submit" value="Add" />
+    </form>
+  </body>
+</html>
